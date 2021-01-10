@@ -1,0 +1,23 @@
+{
+  "name": "juntest",
+  "version": "1.0.0",
+  "description": "that is my future",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvilPolygon/jun-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvilPolygon/jun-test/issues"
+  },
+  "homepage": "https://github.com/EvilPolygon/jun-test#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "bootstrap": "^5.0.0-beta1"
+  }
+}
