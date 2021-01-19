@@ -8,6 +8,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
         <link rel='stylesheet' href='styles/styles.css'>        
 
     </Head>
@@ -21,7 +24,13 @@
             </ul>
             <ul class='navbar-nav'>
                 <div id='user_menu'>
-                    
+                    <li class = 'nav-item dropdown ' >
+                        <button type='button' class='btn btn-info dropdown-toggle' data-toggle = 'dropdown'>user</button>
+                            <div class='dropdown-menu'>
+                                <!-- <div class='dropdown-divider'></div> -->
+                                <a class='dropdown-item' href='#'>Exit</a>
+                            </div>
+                   </li>
                 </div>
             </ul>
         </nav>
