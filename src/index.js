@@ -1,4 +1,4 @@
-import 'bootstrap';
-import '@popperjs/core';
-import 'react';
-import 'jquery';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App.js";
+ReactDOM.render(<App />, document.getElementById("root"));
